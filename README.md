@@ -1,6 +1,6 @@
 # Quiz-time
 
-Want to test your knowledge on random question? Click on the link to play.
+Want to test your knowledge on 5 random question? Click on the link to play.
 
 https://alejandromrosas.github.io/Quiz-time/
 
