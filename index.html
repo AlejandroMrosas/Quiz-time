@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/style.css">
+    <title>Quiz Time</title>
+</head>
+<body>
+    <header>
+        <h3><span class="time" id="timer"></span></h3>
+    </header>
+    <div class="container">
+        <div id="first_page" class="first-p">
+            <p>Ready to take a quick 5 question test? Click on Start to begin!</p>
+        <button id="start_btn" class="start-btn">Start</button>
+        <button id="score_btn" class="score-btn" onclick="show_score()">Scores</button>
+        </div>
+        <div id="quiz" class="quiz-btn">
+         <div id="questions"><p></p></div>
+           <button id="btn_a" class="btn-a" onclick="check_answer('a')">A</button>
+           <br>
+           <button id="btn_b" class="btn-b" onclick="check_answer('b')">B</button>
+           <br>
+           <button id="btn_c" class="btn-c" onclick="check_answer('c')">C</button>
+           <br>
+           <button id="btn_d" class="btn-d" onclick="check_answer('d')">D</button>
+           <div id="result"></div>
+        </div>
+        <div id="end" class="end-page">
+            <div id="final_score"></div>
+            <input type="text" size = "30" placeholder="Please enter your name, to save your score" name="name" id="name"/>
+            <button id="submit_btn">Submit</button>
+        </div>
+    </div>
+    <script src="./asset/code.js"></script>
+</body>
+</html>

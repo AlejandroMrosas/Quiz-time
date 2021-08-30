@@ -1,0 +1,102 @@
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    width: 50vw;
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.title {
+    font-size: 3rem;
+    padding: 0;
+
+}
+
+.first-p {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.start-btn {
+    background-color: purple;
+    padding: 5px 25px;
+    font-size: 25px;
+    border-radius: 6px;
+    margin: 0 50px;
+    color: white;
+}
+
+.score-btn {
+    background-color: purple;
+    padding: 5px 25px;
+    font-size: 25px;
+    border-radius: 6px;
+    margin: 0 50px;
+    color: white;
+}
+
+.btn-a {
+    background-color: purple;
+    padding: 5px 25px;
+    font-size: 25px;
+    border-radius: 6px;
+    margin: 0 50px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.btn-b {
+    background-color: purple;
+    padding: 5px 25px;
+    font-size: 25px;
+    border-radius: 6px;
+    margin: 0 50px;
+    color: white; 
+    margin-bottom: 10px;
+}
+
+.btn-c {
+    background-color: purple;
+    padding: 5px 25px;
+    font-size: 25px;
+    border-radius: 6px;
+    margin: 0 50px;
+    color: white;
+    margin-bottom: 10px;  
+}
+
+.btn-d {
+    background-color: purple;
+    padding: 5px 25px;
+    font-size: 25px;
+    border-radius: 6px;
+    margin: 0 50px;
+    color: white;  
+}
+
+#questions {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.end-page {
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    
+}
+
+#end {
+    display: none;
+
+}
+
+#quiz {
+    display: none;
+}
